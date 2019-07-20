@@ -1,0 +1,72 @@
+html{
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin-top: 56px;
+}
+
+.jumbotron{
+    background-image: url(../asset/image/header-cover.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    color: #eeeeee;
+    border-radius: 0;
+}
+
+.jumbotron h1{
+    font-size: 80px;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.7)
+}
+
+.jumbotron img{
+    width: 200px;
+    border: 5px solid #333333;
+    margin-bottom: 20px;
+    border-color: #eeeeee;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.7);
+}
+
+h2{
+    margin-top: 70px;
+}
+
+hr{
+    width: 250px;
+    border-top: 4px solid;
+    margin-bottom: 60px;
+}
+
+section{
+    min-height: 700px;
+    padding-bottom: 50px;
+}
+
+.portfolio{
+    background-color: #eeeeee;
+    width: 100%;
+}
+
+.portfolio .card-deck{
+    margin-bottom: 40px;
+}
+
+.card-body{
+    border-radius: 8px;
+}
+
+.contact{
+    margin:0px 20px 100px 20px;
+}
+
+footer{
+    color: #eeeeee;
+    background-color: #333333;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    padding: 12px;
+    bottom: 0;
+}
